@@ -29,7 +29,7 @@ leftWindow = [
 
 rightWindow = [
     [sg.Text("You Need Add Folder Path", font="sans, 20", key='-notice_me-')],
-    [sg.Input(key="-download-"),sg.Button("Download"),sg.Button("Exit")],
+    [sg.Input(key="-download-"),sg.Button("Download")],
     [sg.Text(defaultFilePath, font="sans, 20", key="-FileFolder_Text-")],
     [sg.Input(key="-filepath-"),sg.Button("Save File Path")]
 
@@ -37,7 +37,7 @@ rightWindow = [
 
 downWindow = [
     [sg.Text("Click Fun Button", font="sans,35")],
-    [sg.Button("Random Theme")],
+    [sg.Button("Random Theme", font="sans, 15"), sg.VSeparator(), sg.Button("Exit", font="sans, 15")],
 ]
 
 defaulWindow = [
@@ -79,7 +79,7 @@ while True:  # Event Loop
 
         rightWindow = [
             [sg.Text("You Need Add Folder Path", font="sans, 20", key='-notice_me-')],
-            [sg.Input(key="-download-"),sg.Button("Download"),sg.Button("Exit")],
+            [sg.Input(key="-download-"),sg.Button("Download")],
             [sg.Text(defaultFilePath, font="sans, 20", key="-FileFolder_Text-")],
             [sg.Input(key="-filepath-"),sg.Button("Save File Path")]
 
@@ -87,11 +87,12 @@ while True:  # Event Loop
 
         downWindow = [
             [sg.Text("Click Fun Button", font="sans,35")],
-            [sg.Button("Random Theme")],
+            [sg.Button("Random Theme", font="sans, 15"), sg.VSeparator(), sg.Button("Exit", font="sans, 15")],
         ]
 
         defaulWindow = [
-            [sg.Column(leftWindow), sg.Column(rightWindow)],
+            [sg.Column(leftWindow), sg.VSeparator(), sg.Column(rightWindow)],
+            [sg.HSeparator()],
             [sg.Column(downWindow)]
         ]
 

@@ -1,6 +1,12 @@
 import PySimpleGUI as sg
 import os,random
 
+
+
+music_Link = ""
+defaultFilePath = "Empty"
+
+
 sg.LOOK_AND_FEEL_TABLE["gnuchan"] = {
                                     'BACKGROUND': '#240046',
                                     'TEXT': '#9d4edd',
@@ -18,96 +24,32 @@ sg.theme("gnuchan")
 
 
 
-second = 0
-minute = 0
-timerStart = False
-strTime = ""
 
 
-timer = [
-    [sg.Text(key="time", font="sans, 20", background_color="#410f70", size=(30,1))],
 
-    [
-    sg.Button("Start", font="sans, 20"),
-    sg.Button("Stop", font="sans, 20"), 
-    sg.Button("Add Time", font="sans, 20"), 
-    ],
-
-    [sg.Image("./logo.png")],
-    [sg.Text("Gnuchan Timer", font="sans, 20")]
-]
-timeNum = [
-    [sg.Multiline(strTime, key="timenum", font="sans, 20", size=(20,10))]
-]
 downWindow = [
     [sg.Text("Click Fun Button", font="sans,35")],
     [sg.Button("Random Theme", font="sans, 15"), sg.VSeparator(), sg.Button("Exit", font="sans, 15")],
 ]
+
 mainWindow = [
-    [sg.Column(timer), sg.VSeparator(), sg.Column(timeNum)],
     [sg.HSeparator()],
     [sg.Column(downWindow)]
 ]
 
-Window = sg.Window("Gnuchan Timer", mainWindow)
+
+Window = sg.Window("GnuChan Default", mainWindow)
+
+
+
 
 
 while True:  # Event Loop
-    event, values = Window.read(timeout=60)
+    event, values = Window.read()
     if event == sg.WIN_CLOSED or event == 'Exit':
         break
 
-    if event == "Start":
-        timerStart = True
-    if event == "Stop":
-        timerStart = False
-    if event == "Add Time":
-        strTime += "Time: " + str(minute) + ":" + str(int(second)) + "\n" + "---------" + "\n"
-
-        Window["timenum"].update(strTime)
-    
-    if timerStart == True:
-        second += 0.05
-        if second >= 60:
-            minute += 1
-            second = 0
-        #print(second, " : ", minute)
-        
-                
-        newtime = "Time: " + str(minute) + ":" + str(int(second))
-        Window["time"].update(newtime)
-    else:
-        pass
 
 
 
-    
-    if event == "Random Theme":
-        sg.theme("random.choice(themes)")
-        timer = [
-            [sg.Text(key="time", font="sans, 20", size=(30,1))],
-            
-            [
-            sg.Button("Start", font="sans, 20"),
-            sg.Button("Stop", font="sans, 20"), 
-            sg.Button("Add Time", font="sans, 20"), 
-            sg.Button("Exit", font="sans, 20")
-            ],
 
-            [sg.Image("./logo.png")],
-            [sg.Text("Gnuchan Timer", font="sans, 20")]
-        ]
-        timeNum = [
-            [sg.Multiline(strTime, key="timenum", font="sans, 20", size=(20,10))]
-        ]
-        downWindow = [
-            [sg.Text("Click Fun Button", font="sans,35")],
-            [sg.Button("Random Theme", font="sans, 15"), sg.VSeparator(), sg.Button("Exit", font="sans, 15")],
-        ]
-        mainWindow = [
-            [sg.Column(timer), sg.VSeparator(), sg.Column(timeNum)],
-            [sg.HSeparator()],
-            [sg.Column(downWindow)]
-        ]
-
-        Window = sg.Window("Gnuchan Timer", mainWindow)

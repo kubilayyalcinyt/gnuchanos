@@ -54,7 +54,7 @@ leftWin = [
     [sg.Button("4", font="sans, 20"),sg.Button("5", font="sans, 20"),sg.Button("6", font="sans, 20"), sg.Button("-", font="sans, 20", size=(3,1))],
     [sg.Button("7", font="sans, 20"),sg.Button("8", font="sans, 20"),sg.Button("9", font="sans, 20"), sg.Button("*", font="sans, 20", size=(3,1))],
     [sg.Button("0", font="sans, 20"),sg.Button("=", font="sans, 20"),sg.Button("/", font="sans, 20", size=(1,1)), sg.Button("+", font="sans, 20", size=(3,1))],
-    [sg.Button("Clear", font="sans, 20"), sg.Button("Exit", font="sans, 20", size=(7,1))]
+    [sg.Button("Clear", font="sans, 20")]
 ]
 
 left2Win = [
@@ -64,7 +64,7 @@ left2Win = [
 
 downWindow = [
     [sg.Text("Click Fun Button", font="sans,35")],
-    [sg.Button("Random Theme")],
+    [sg.Button("Random Theme", font="sans, 15"), sg.VSeparator(), sg.Button("Exit", font="sans, 15")],
 ]
 
 windowX_Adam = [
@@ -76,7 +76,7 @@ windowX_Adam = [
 
 ]
 
-Window = sg.Window("GnuChan Music Download", windowX_Adam)
+Window = sg.Window("GnuChan Calculator", windowX_Adam)
 
 
 
@@ -238,7 +238,7 @@ while True:  # Event Loop
             [sg.Button("4", font="sans, 20"),sg.Button("5", font="sans, 20"),sg.Button("6", font="sans, 20"), sg.Button("-", font="sans, 20", size=(3,1))],
             [sg.Button("7", font="sans, 20"),sg.Button("8", font="sans, 20"),sg.Button("9", font="sans, 20"), sg.Button("*", font="sans, 20", size=(3,1))],
             [sg.Button("0", font="sans, 20"),sg.Button("=", font="sans, 20"),sg.Button("/", font="sans, 20", size=(1,1)), sg.Button("+", font="sans, 20", size=(3,1))],
-            [sg.Button("Clear", font="sans, 20"), sg.Button("Exit", font="sans, 20", size=(7,1))]
+            [sg.Button("Clear", font="sans, 20")]
         ]
 
         left2Win = [
@@ -248,7 +248,7 @@ while True:  # Event Loop
 
         downWindow = [
             [sg.Text("Click Fun Button", font="sans,35")],
-            [sg.Button("Random Theme")],
+            [sg.Button("Random Theme", font="sans, 15"), sg.VSeparator(), sg.Button("Exit", font="sans, 15")],
         ]
 
         windowX_Adam = [
@@ -260,7 +260,7 @@ while True:  # Event Loop
 
         ]
 
-        Window = sg.Window("GnuChan Music Download", windowX_Adam)
+        Window = sg.Window("GnuChan Calculator", windowX_Adam)
 
 
 
