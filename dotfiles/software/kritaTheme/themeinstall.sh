@@ -1,0 +1,1 @@
+cp GnuChanOS.colors /home/archkubi/.local/share/krita/color-schemes

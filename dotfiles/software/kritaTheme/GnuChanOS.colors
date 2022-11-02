@@ -1,0 +1,28 @@
+[ColorEffects:Inactive]
+ChangeSelectionColor=false
+
+
+[Colors:Button]
+BackgroundNormal=63, 8, 148
+ForegroundNormal=199, 144, 251 
+
+
+[Colors:Selection]
+BackgroundNormal=32, 5, 75 
+ForegroundNormal=199, 144, 251 
+
+
+[Colors:View]
+BackgroundAlternate=99, 26, 212 
+BackgroundNormal=69, 8, 126 
+ForegroundLink=158, 74, 237 
+ForegroundNormal=199, 144, 251 
+
+
+[Colors:Window]
+BackgroundNormal=34, 4, 62 
+ForegroundNormal=199, 144, 251 
+
+
+[General]
+Name=Karkmoled

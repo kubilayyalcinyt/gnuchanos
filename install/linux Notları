@@ -1,0 +1,46 @@
+default sistem : /usr/share/applications/mimeinfo.cache 
+
+1. git reset --soft HEAD~1           ###################
+2. git push origin +main --force     #github yorum silme
+3. git add .
+4. git commit -m "uwu"
+
+
+cd / mv / cp / rm / ls / pwd / 
+find / -name file
+whereis 
+
+killall dunst;notify-send foo - dunst sıfırlama
+
+
+bottle game > mono-gecko-allfont
+
+steam
+PROTON_NO_D3D11=1  LD_PRELOAD=$LD_PRELOAD:/usr/\$LIB/libgamemodeauto.so %command%
+
+sudo pacman -Sy rustup
+rustup default stable
+
+
+:-----------------------------------------------------------------------------
+archkubi.github.io
+https://github.com/ArchKubi
+https://twitter.com/ArchKubi
+:-----------------------------------------------------------------------------
+Terminal : Cool Retro Term
+File Manager : Ranger
+Software Starter : Dmenu\Rofi
+image Viewer : Nomacs
+Office Software : LibreOffice
+PDF Software : Zathura
+Task Manager : Top\Htop\Btop\Gtop\ WTF-Top 
+Music Player : Cmus
+Video Player : VLC BRUH
+:-----------------------------------------------------------------------------
+Game Dev: Blender\Godot : python
+Video Editor : Audacity\Kdenlive
+2D Editor: Gimp\Krita\inkscape
+Cool Music Edit  : LMMS
+:-----------------------------------------------------------------------------
+Free to use Doctor Who intro = Zander Brain Cinemas
+https://www.youtube.com/watch?v=WMT4Ze_jemc&ab_channel=SalemSound

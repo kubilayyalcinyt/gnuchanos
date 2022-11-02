@@ -1,16 +1,22 @@
-### Hi there 👋
+![](https://gitlab.com/archkubi/gnuchanos/-/raw/main/wallpaper.png)
 
-<!--
-**GnuchanOS/gnuchanos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- this is theme and settings not real distro for now
+- gnuchan is fish like system but more amateur ı need help for this ı learn python but not okay
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- name - GnuChanOS
+- terminal - Cool Retro Term
+- File Manager - Ranger and Nemo
+- Music Player - Cmus
+- Pdf -  Zathura
+- Image viewer - ristretto
+
+- another packages conky picom gparted nitrogen rofi dmenu lxappearance scrot
+
+- theme ı add this - blender,vscodium,krita,cool retro term,rofi
+- gtk support - gimp,inscape,libreoffice
+
+- finish settings -: distro name,grub,plymouth,qtile
+- not finish - ly is not support purple sad
+
+- we need ready settings live desktop and installer
