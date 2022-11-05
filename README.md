@@ -5,19 +5,19 @@
 
 ### <div align="center">Hi I'm piece of Sh*t welcome to my personal hell</div>  
   
-
-- -- Timer                     ---- Finish
--- Calculator                ----
--- Text Editor               ----
--- Youtube music download    ----
--- Image Viewer              ----
--- PDF Viewer                ----
--- Music player              ----
--- Video Player              ----
--- rofi style program        ----
--- file manager              ----
--- terminal emulator         ----  
-  
+<ul>
+  <li>--- Timer     ---- Finish</li>
+  <li>Calculator                ----</li>
+  <li>Text Editor               ----</li>
+  <li>Youtube music download    ----</li>
+  <li>Image Viewer              ----</li>
+  <li>PDF Viewer                ---- </li>
+  <li>Music player              ---- </li>
+  <li>Video Player              ---- </li>
+  <li>rofi style program        --- </li>
+  <li>file manager              ---- </li>
+  <li>terminal emulator         ----  </li>
+</ul>
 
 <br/>  
 
