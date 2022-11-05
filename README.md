@@ -6,7 +6,7 @@
 ### <div align="center">Hi I'm piece of Sh*t welcome to my personal hell</div>  
   
 <ul>
-  <li>--- Timer     ---- Finish</li>
+  <li>Timer                     ---- Finish</li>
   <li>Calculator                ----</li>
   <li>Text Editor               ----</li>
   <li>Youtube music download    ----</li>
