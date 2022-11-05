@@ -239,7 +239,7 @@ read -rsn1 -p "####### TERMİNAL ##############################################"
 echo "pacman -S xterm"
 sleep 2
 pacman -S xterm
-sudo localectl --no-convert set-x11-keymap tr
+
 read -rsn1 -p "###################### FINISH : PRESS ENTER #########################" variable; echo
 ################################################################################################################
 
@@ -247,7 +247,7 @@ read -rsn1 -p "###################### FINISH : PRESS ENTER #####################
 ################################################################################################################
 read -rsn1 -p "####### Display Manager ##############################################" variable; echo
 #this is good for you broooo
-sudo pacman -Sy lxde lxdm
+sudo pacman -Sy lxdm
 sudo systemctl enable lxdm.service
 echo "lxde for mouse icon"
 

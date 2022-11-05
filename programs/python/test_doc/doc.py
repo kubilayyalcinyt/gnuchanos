@@ -87,4 +87,13 @@ while True:  # Event Loop - çoğu işlemleri burada yapmamız gerekli farklı y
         use_Gnu_linux_bro = values["-filepath-"]
         Window["-yazı-"].update(use_Gnu_linux_bro) #Window özelliği sayesinde str değerini gerçek zamanlı değiştirebiliriz
     
-    #
+    # "0" += "1" sıfırın yanına 1 ekler | 0 += 1 her seferinde 1 sayı artar
+    # bunu not olarak eklememin nedeni hesap makinesi yaparken sayıları yan yana yazamamış olmam önce str ile alıp sonra işlemi int yapma
+    
+
+
+    if event == "Download":
+        music_Link = values["-download-"]
+        if "https://www.youtube" in music_Link:
+            os.system(f"cd {defaultFilePath} && yt-dlp -f 'ba' -x --audio-format mp3 {music_Link}")
+            Window["-notice_me-"].update("Your Download is Start Have a Nice Day :)")

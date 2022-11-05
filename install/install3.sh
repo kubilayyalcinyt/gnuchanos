@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "if you see this ## press enter"
 
+sudo localectl --no-convert set-x11-keymap tr
 
 ################################################################################################################
 read -rsn1 -p "###### LOCAL TIME #################################################" variable; echo

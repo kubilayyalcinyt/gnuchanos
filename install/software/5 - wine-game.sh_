@@ -15,12 +15,13 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 
 #games
 sudo pacman -S kdialog
-yay -S winetricks-git
+yay -Sy winetricks-git gamemode lib32-gamemode-git protontricks-git protonup-qt
+sudo pacman -Sy flatpak
 
+flatpak install flathub net.lutris.Lutris
+flatpak install flathub com.usebottles.bottles
+flatpak install flathub com.heroicgameslauncher.hgl
 
-# game Mode
-yay -S gamemode lib32-gamemode-git
-yay -Sy lutris-git bottles-git heroic-games-launcher-git protontricks-git protonup-qt
 
 # MangoHud
 yay -S mangohud-git mangohud-common lib32-mangohud
