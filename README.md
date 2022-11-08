@@ -5,7 +5,7 @@
 <hr>
 <ul>
   <li>Timer                     ---- Finish</li>
-  <li>Calculator                ----</li>
+  <li>Calculator                ---- Finish</li>
   <li>Text Editor               ----</li>
   <li>Youtube music download    ----</li>
   <li>Image Viewer              ----</li>

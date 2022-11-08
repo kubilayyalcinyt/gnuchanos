@@ -40,7 +40,7 @@ winLayer  = [
 # size(200x200)
 # font="sans, 20"
 # for text justification="c") c --> center
-
+# expand_x=True
 
 # multiline - read only = disabled=True
 # multiline - text center = justification="center"
