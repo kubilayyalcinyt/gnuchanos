@@ -90,10 +90,7 @@ mkdir /mnt/yedek
 cp  install2.sh    /mnt/yedek
 cp  install3.sh    /mnt/yedek
 
-git clone https://github.com/ArchKubi/archlinuxinstall.git
-mv archlinuxinstall /mnt/yedek
-
-git clone https://github.com/ArchKubi/gnuchanos
+git clone https://github.com/GnuchanOS/gnuchanos.git
 mv gnuchanos /mnt/yedek
 
 echo "arch-chroot /mnt"
