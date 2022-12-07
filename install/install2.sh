@@ -275,8 +275,8 @@ do
             ;;
 
         ("Openbox")
-        echo "Your Chosen Environment Xfce"
-            echo "sudo pacman -S xfce4 xfce4-goodies"
+        echo "Your Chosen Environment OpenBox"
+            echo "sudo pacman -S openbox obconf menumaker"
             sleep 3
             sudo pacman -S openbox obconf menumaker 
             break
