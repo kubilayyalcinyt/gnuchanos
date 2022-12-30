@@ -14,7 +14,7 @@ function run {
 
 picom --config ~/.config/openbox/picom.conf &
 nitrogen --restore &
-#sh ~/.config/openbox/display.sh  &
+sh ~/.config/openbox/display.sh  &
 
 #start the conky to learn the shortcuts
 killall conky

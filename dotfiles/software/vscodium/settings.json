@@ -1,18 +1,19 @@
 {
 
-
+    "telemetry.telemetryLevel": "off",
+    
     "editor.hover.enabled": false,
-
+  
     "rust-analyzer.server.extraEnv": { "RUSTUP_TOOLCHAIN": "stable" },
-
+  
     "rust-analyzer.cargo.features": [
         "lp_coincbc",
         "blas_openblas-system"
       ],
     
     "workbench.colorCustomizations": {
-
-
+  
+  
         "foreground": "#9d4edd",
         "focusBorder": "#5a189a",
         "selection.background": "#3c096c",
@@ -276,12 +277,10 @@
         "debugExceptionWidget.background": "#4d12a3",
         "debugExceptionWidget.border": "#ffd9f7"
         
-
-
+  
+  
     },
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "code-runner.enableAppInsights": false,
-    "telemetry.telemetryLevel": "off",
     "editor.minimap.enabled": false
-}
+  }

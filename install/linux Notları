@@ -22,25 +22,5 @@ sudo pacman -Sy rustup
 rustup default stable
 
 
-:-----------------------------------------------------------------------------
-archkubi.github.io
-https://github.com/ArchKubi
-https://twitter.com/ArchKubi
-:-----------------------------------------------------------------------------
-Terminal : Cool Retro Term
-File Manager : Ranger
-Software Starter : Dmenu\Rofi
-image Viewer : Nomacs
-Office Software : LibreOffice
-PDF Software : Zathura
-Task Manager : Top\Htop\Btop\Gtop\ WTF-Top 
-Music Player : Cmus
-Video Player : VLC BRUH
-:-----------------------------------------------------------------------------
-Game Dev: Blender\Godot : python
-Video Editor : Audacity\Kdenlive
-2D Editor: Gimp\Krita\inkscape
-Cool Music Edit  : LMMS
-:-----------------------------------------------------------------------------
-Free to use Doctor Who intro = Zander Brain Cinemas
-https://www.youtube.com/watch?v=WMT4Ze_jemc&ab_channel=SalemSound
+set url.searchengines '{"DEFAULT": "https://google.com/?q={}"}'
+qutebrowser defaul search engine

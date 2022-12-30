@@ -165,8 +165,10 @@ read -rsn1 -p "alsa Completed!    //Press Enter" variable; echo
 
 echo "pacman -S pulseaudio pavucontrol"
 sleep 2
-pacman -S pulseaudio pavucontrol
-echo "pulseaudio Completed!   " variable; echo
+pacman -S pavucontrol
+sudo pacman -S pipewire-{jack,alsa,pulse}
+systemctl --user enable --now pipewire pipewire-pulse pipewire-media-session
+echo "fck pulseaudio  | pipewire Completed!   " variable; echo
 read -rsn1 -p "###################### FINISH : PRESS ENTER #########################" variable; echo
 ################################################################################################################
 

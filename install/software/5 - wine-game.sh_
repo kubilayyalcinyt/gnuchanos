@@ -16,11 +16,7 @@ lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader l
 #games
 sudo pacman -S kdialog
 yay -Sy winetricks-git gamemode lib32-gamemode-git protontricks-git protonup-qt
-sudo pacman -Sy flatpak
-
-flatpak install flathub net.lutris.Lutris
-flatpak install flathub com.usebottles.bottles
-flatpak install flathub com.heroicgameslauncher.hgl
+# appimage : heroic games
 
 
 # MangoHud
@@ -31,24 +27,27 @@ cp /usr/share/doc/mangohud/MangoHud.conf.example  ~/.config/MangoHud/
 mv MangoHud.conf.example MangoHud.conf
 
 
-# winetricks d3dcompiler_42 
-# winetricks d3dcompiler_43 
-# winetricks d3dcompiler_47  
-# winetricks vcrun2003 
-# winetricks vcrun2005 
-# winetricks vcrun2008 
-# winetricks vcrun2010 
-# winetricks vcrun2012 
-# winetricks vcrun2013 
-# winetricks vcrun2015 
-# winetricks vcrun6sp6 
-# winetricks dotnet40 
-# winetricks dotnet48 
-# winetricks faudio
-# winetricks allfonts
-# winetricks d3dx11_43 
-# winetricks d3dx9 
-# winetricks d3dx9_43
+winetricks d3dcompiler_42  
+winetricks d3dcompiler_43 
+winetricks d3dcompiler_47  
+winetricks vcrun2003 
+winetricks vcrun2005 
+winetricks vcrun2008 
+winetricks vcrun2010 
+winetricks vcrun2012 
+winetricks vcrun2013 
+winetricks vcrun2015 
+winetricks vcrun6sp6 
+winetricks dotnet40 
+winetricks dotnet48 
+winetricks faudio
+winetricks allfonts
+winetricks d3dx11_43 
+winetricks d3dx9 
+winetricks d3dx9_43
+
+mkdir ~/.GameWine 
+cp -r ~/.wine ~/.backupFolder
 
 
 
